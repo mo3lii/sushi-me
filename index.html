@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushi Me</title>
+    <link rel="icon" type="image/png" href="./images/logo1.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;900&family=Permanent+Marker&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start nav  -->
+    <nav class="navbar navbar-expand-lg fw-bold sticky-top" id="nav-bar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo3.png" />
+          SushiMe</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars navbar-toggler-icon text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Live Demo
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Thai Food Demo</a></li>
+                <li><a class="dropdown-item" href="#">Pizza Bar Demo</a></li>
+                <li><a class="dropdown-item" href="#">Sushi Cafe Demo</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Live Demo Blocks
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="btn rounded-pill nav-login-btn" type="submit">
+                BUY NOW
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav  -->
+    <!-- start cover  -->
+    <div class="cover container-fluid bg-red">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-white text-center text-lg-start">
+            <h1 class="mb-2">SUSHI CAFE</h1>
+            <p class="lh-lg mb-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              ullamcorper neque dapibus ipsum semper, sit amet luctus turpis
+              porttitor. Ut libero ante, varius quis ligula.
+            </p>
+            <div
+              class="cover-offers d-flex align-items-center justify-content-between px-lg-4"
+            >
+              <ul class="flex-column flex-md-row gap-md-3 text-start">
+                <li>Salmon</li>
+                <li>Cheese</li>
+                <li>Rice</li>
+              </ul>
+              <span class="cover-price ms-auto">$15.99</span>
+              <!-- <span class="cover-plus">+</span> -->
+            </div>
+          </div>
+          <div class="col-lg-5 ms-auto mt-5 mt-lg-0">
+            <img src="./images/06.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end cover  -->
+    <!-- start delivery  -->
+    <div class="delivery container-fluid">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-lg-5 col-md-12 text-start">
+            <h2 class="red-title">Delivery</h2>
+            <h1 class="black-title">Choose what you want and select time</h1>
+            <p class="text-black-50 lh-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              ullamcorper neque dapibus ipsum semper, sit amet luctus turpis
+              porttitor. Ut libero ante, varius quis ligula.
+            </p>
+            <button class="btn rounded-pill delivery-btn">
+              <i class="fa-solid fa-earth-americas"></i>
+              <span>Order Online</span>
+            </button>
+          </div>
+
+          <div class="col-lg-2 col-md-12 align-self-lg-end py-5">
+            <img src="./images/02.png" alt="" />
+          </div>
+
+          <div class="col-lg-5 col-md-12 text-end">
+            <h2 class="red-title">Reward</h2>
+            <h1 class="black-title">Earn points every time you order online</h1>
+            <p class="text-black-50 lh-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              ullamcorper neque dapibus ipsum semper, sit amet luctus turpis
+              porttitor. Ut libero ante, varius quis ligula.
+            </p>
+            <button class="btn rounded-pill delivery-btn">
+              <i class="fa-solid fa-circle-info"></i> <span>Learn more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end delivery  -->
+    <!-- start best sellers  -->
+    <div class="best-sellers container p-5">
+      <div class="row">
+        <h2 class="red-title text-center">Specials Combo</h2>
+        <h1 class="black-title text-center">Our Best Sellers</h1>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="best-card">
+            <h2 class="prod-title">Thai Combo</h2>
+            <p class="prod-details">
+              Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
+            <p class="prod-price">12$</p>
+            <button class="btn rounded-pill">
+              <i class="fa-solid fa-cart-shopping"></i>Order Now
+            </button>
+            <div class="prod-img"></div>
+            <img src="./images/food01.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="best-card">
+            <h2 class="prod-title">Thai Combo</h2>
+            <p class="prod-details">
+              Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
+            <p class="prod-price">12$</p>
+            <button class="btn rounded-pill">
+              <i class="fa-solid fa-cart-shopping"></i>Order Now
+            </button>
+            <div class="prod-img"></div>
+            <img src="./images/food02.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="best-card">
+            <h2 class="prod-title">Thai Combo</h2>
+            <p class="prod-details">
+              Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
+            <p class="prod-price">12$</p>
+            <button class="btn rounded-pill">
+              <i class="fa-solid fa-cart-shopping"></i>Order Now
+            </button>
+            <div class="prod-img"></div>
+            <img src="./images/food04.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="best-card">
+            <h2 class="prod-title">Thai Combo</h2>
+            <p class="prod-details">
+              Lorem ipsum dolor sit amet, consectetur adipiscing.
+            </p>
+            <p class="prod-price">12$</p>
+            <button class="btn rounded-pill">
+              <i class="fa-solid fa-cart-shopping"></i>Order Now
+            </button>
+            <div class="prod-img"></div>
+            <img src="./images/food03.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end best sellers  -->
+    <!-- start deals  -->
+    <div class="container deals">
+      <div class="row">
+        <h2 class="red-title text-center">DEALS</h2>
+        <h1 class="black-title text-center mb-5">Choose your dishes</h1>
+      </div>
+      <div class="row">
+        <div
+          class="col-sm-12 col-lg-4 col-md-6 col-12 p-3 px-sm-0 d-flex justify-content-center align-items-center"
+        >
+          <div class="dish my-1" id="dish1">
+            <div class="content">
+              <h2>Thai food</h2>
+              <p>Vegan Set</p>
+              <a href="#">
+                <span>Order Now</span
+                ><i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+            <img src="./images/03.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-lg-4 col-md-6 col-12 p-3 px-sm-0 d-flex justify-content-center align-items-center"
+        >
+          <div class="dish my-1" id="dish2">
+            <div class="content">
+              <h2>Thai food</h2>
+              <p>Vegan Set</p>
+              <a href="#">
+                <span>Order Now</span
+                ><i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+            <img src="./images/05.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-lg-4 col-md-6 col-12 p-3 px-sm-0 d-flex justify-content-center align-items-center"
+        >
+          <div class="dish my-1" id="dish3">
+            <div class="content">
+              <h2>Thai food</h2>
+              <p>Vegan Set</p>
+              <a href="#">
+                <span>Order Now</span
+                ><i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+            <img src="./images/01.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end deals  -->
+    <!-- start circle -->
+    <div class="features container-fluid">
+      <div
+        class="container circle d-flex justify-content-center align-items-center"
+      >
+        <div class="row">
+          <div
+            class="col-sm-12 col-lg-12 ms-auto d-flex justify-content-center justify-content-lg-end"
+          >
+            <div class="feature text-center text-lg-start">
+              <i class="fa-solid fa-hotdog"></i>
+              <p>A new look on the right food!</p>
+            </div>
+          </div>
+          <div
+            class="img-col order-first order-lg-0 col-sm-12 col-lg-6 ms-auto d-flex justify-content-center justify-content-lg-end overflow-visible"
+          >
+            <img class="mt-auto" src="./images/02.png" alt="" />
+          </div>
+          <div
+            class="col-sm-12 col-lg-6 ms-auto d-flex justify-content-center justify-content-lg-end"
+          >
+            <div class="feature text-center text-lg-start">
+              <i class="fa-solid fa-earth-americas"></i>
+              <p>The use of natural best quality products</p>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-12 col-lg-6 ms-auto d-flex justify-content-center justify-content-lg-end"
+          >
+            <div class="feature text-center text-lg-start">
+              <i class="fa-solid fa-truck"></i>
+              <p>World’s best Chef and Nutritionist!</p>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-12 col-lg-6 ms-auto d-flex justify-content-center justify-content-lg-end"
+          >
+            <div class="feature text-center text-lg-start">
+              <i class="fa-solid fa-user-group"></i>
+              <p>Fastest delivery on your door step</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end circle -->
+
+    <!-- start menu  -->
+    <div class="container menu-section">
+      <div class="row">
+        <h2 class="red-title text-center">MENU</h2>
+        <h1 class="black-title text-center">Choose your dishes</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 menu-item">
+          <span>sushi</span>
+          <div class="menu-box">
+            <p class="item-name">Salmon Roll</p>
+            <div class="line"></div>
+            <span>$10.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-lg-6 menu-item">
+          <span>thai food</span>
+          <div class="menu-box">
+            <p class="item-name">spicy fish set</p>
+            <div class="line"></div>
+            <span>$29.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-6 menu-item">
+          <span>pizza</span>
+          <div class="menu-box">
+            <p class="item-name">mozzarella Roll</p>
+            <div class="line"></div>
+            <span>$14.55</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-6 menu-item">
+          <span>sushi</span>
+          <div class="menu-box">
+            <p class="item-name">Salmon Roll</p>
+            <div class="line"></div>
+            <span>$18.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-6 menu-item">
+          <span>sushi</span>
+          <div class="menu-box">
+            <p class="item-name">Salmon sushi</p>
+            <div class="line"></div>
+            <span>$21.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-6 menu-item">
+          <span>thai food</span>
+          <div class="menu-box">
+            <p class="item-name">spicy fish set</p>
+            <div class="line"></div>
+            <span>$11.75</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-6 menu-item">
+          <span>pizza</span>
+          <div class="menu-box">
+            <p class="item-name">mozzarella Roll</p>
+            <div class="line"></div>
+            <span>$13.50</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-lg-6 menu-item">
+          <span>sushi</span>
+          <div class="menu-box">
+            <p class="item-name">Salmon sushi</p>
+            <div class="line"></div>
+            <span>$17.60</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end menu  -->
+
+    <!-- start gellery  -->
+    <div class="container-fluid gallery">
+      <div class="container">
+        <div class="row">
+          <h2 class="red-title text-center">Gallery</h2>
+          <h1 class="black-title text-center mb-5">Look at our menu</h1>
+        </div>
+        <div
+          class="imgs-container row d-flex justify-content-center align-items-center"
+        >
+          <div class="col-lg-4 img-container">
+            <img src="./images/gallery02.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 img-container">
+            <img src="./images/gallery03.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 img-container">
+            <img src="./images/gallery04.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 img-container">
+            <img src="./images/gallery05.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 img-container">
+            <img src="./images/gallery06-800x832.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 img-container">
+            <img src="./images/gallery07-800x444.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end gellery  -->
+
+    <!-- start team  -->
+    <div class="container team">
+      <div class="row">
+        <h2 class="red-title text-center">team</h2>
+        <h1 class="black-title text-center mb-5">Behind the taste</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="member-card">
+            <div class="member-img">
+              <img src="./images/face4.jpg" alt="" />
+            </div>
+            <p class="name">Ann Jane</p>
+            <p class="position">Designer</p>
+            <div class="links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="member-card">
+            <div class="member-img">
+              <img src="./images/face2.jpg" alt="" />
+            </div>
+            <p class="name">Dan Brown</p>
+            <p class="position">Marketing</p>
+            <div class="links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="member-card">
+            <div class="member-img">
+              <img src="./images/face3.jpg" alt="" />
+            </div>
+            <p class="name">John Smith</p>
+            <p class="position">Manager</p>
+            <div class="links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-3">
+          <div class="member-card">
+            <div class="member-img">
+              <img src="./images/face1.jpg" alt="" />
+            </div>
+            <p class="name">Ben James</p>
+            <p class="position">Client</p>
+            <div class="links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end team  -->
+
+    <!-- start FAQ -->
+    <div class="container faq">
+      <div class="row">
+        <h2 class="red-title text-center">FAQ</h2>
+        <h1 class="black-title text-center mb-5">Questions?</h1>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div
+          class="col-lg-7 col-sm-12 accordion accordion-flush"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                What products do we use?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                id velit justo. Nullam vestibulum odio vel justo tincidunt, ut
+                fermentum neque fermentum. In hac habitasse platea dictumst. Sed
+                interdum, libero in aliquet faucibus, nisi felis ultricies
+                risus, ut feugiat neque eros vel purus. Quisque condimentum
+                nulla id erat rhoncus, vel tincidunt justo ultricies.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                What cuisines are presented in the menu?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                id velit justo. Nullam vestibulum odio vel justo tincidunt, ut
+                fermentum neque fermentum. In hac habitasse platea dictumst. Sed
+                interdum, libero in aliquet faucibus, nisi felis ultricies
+                risus, ut feugiat neque eros vel purus. Quisque condimentum
+                nulla id erat rhoncus, vel tincidunt justo ultricies.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What types of payment do we accept?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                id velit justo. Nullam vestibulum odio vel justo tincidunt, ut
+                fermentum neque fermentum. In hac habitasse platea dictumst. Sed
+                interdum, libero in aliquet faucibus, nisi felis ultricies
+                risus, ut feugiat neque eros vel purus. Quisque condimentum
+                nulla id erat rhoncus, vel tincidunt justo ultricies.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                Where to read reviews about us?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                id velit justo. Nullam vestibulum odio vel justo tincidunt, ut
+                fermentum neque fermentum. In hac habitasse platea dictumst. Sed
+                interdum, libero in aliquet faucibus, nisi felis ultricies
+                risus, ut feugiat neque eros vel purus. Quisque condimentum
+                nulla id erat rhoncus, vel tincidunt justo ultricies.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                How to become our supplier?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                id velit justo. Nullam vestibulum odio vel justo tincidunt, ut
+                fermentum neque fermentum. In hac habitasse platea dictumst. Sed
+                interdum, libero in aliquet faucibus, nisi felis ultricies
+                risus, ut feugiat neque eros vel purus. Quisque condimentum
+                nulla id erat rhoncus, vel tincidunt justo ultricies.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end FAQ -->
+
+    <!-- start letsconnect  -->
+    <div class="container-fluid connect">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 order-last order-lg-first pt-sm-3">
+            <img src="./images/04.png" alt="" />
+          </div>
+
+          <div
+            class="col-lg-7 col-sm-12 order-sm-first order-lg-last ms-auto d-flex flex-column align-items-start justify-content-center mb-5"
+          >
+            <h2>Let's connect</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form action="#">
+              <input
+                class="rounded-pill"
+                type="text"
+                placeholder="Your Email Address"
+              />
+              <button class="rounded-pill">
+                <i class="fa-solid fa-bell"></i>
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end letsconnect  -->
+
+    <!-- start review  -->
+    <div class="container review">
+      <div class="row">
+        <h2 class="red-title text-center">Reward</h2>
+        <h1 class="black-title text-center mb-5">Clients Reviews</h1>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <img src="./images/face4.jpg" alt="" />
+          <p class="name">Ann Grayson</p>
+          <p class="role">Manager</p>
+          <div class="review-content">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              neque dapibus ipsum semper, amet luctus turpis porttitor.
+            </p>
+          </div>
+          <ul>
+            <li class="active"><div></div></li>
+            <li><div></div></li>
+            <li><div></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end review  -->
+
+    <!-- start video -->
+    <div class="container-fluid video">
+      <div class="overlay"></div>
+      <div class="play"><i class="fa-solid fa-play"></i></div>
+    </div>
+    <!-- end video -->
+
+    <!-- start review-form  -->
+    <div class="container review-form">
+      <div class="row text-sm-center text-md-start p-3">
+        <h3 class="col-12">Write a review</h3>
+        <p class="col-12">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          ullamcorper neque dapibus ipsum semper, sit amet luctus turpis
+          porttitor. Ut libero varius quis ligula, aliquet consectetur tortor.
+        </p>
+      </div>
+      <form action="#" class="row">
+        <div class="col-12 col-lg-6">
+          <input
+            type="text"
+            name="name"
+            class="col-12 col-lg-6"
+            placeholder="Name"
+          />
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <input
+            type="email"
+            name="email"
+            class="col-12 col-lg-6"
+            placeholder="Email"
+          />
+        </div>
+
+        <div class="col-12">
+          <input
+            type="text"
+            name="phone"
+            class="col-12"
+            placeholder="Phone Number"
+          />
+        </div>
+
+        <div class="col-12">
+          <textarea
+            class="col-12"
+            name="message"
+            cols="30"
+            rows="6"
+            placeholder="Your Message"
+          ></textarea>
+        </div>
+      </form>
+    </div>
+    <!-- end review-form  -->
+
+    <!-- start footer  -->
+    <div
+      class="container-fluid footer d-flex justify-content-center align-items-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div
+              class="links justify-content-center justify-content-lg-start align-items-center d-flex flex-column flex-lg-row gap-3 mb-3"
+            >
+              <a href="#">About us</a>
+              <a href="#">Menu</a>
+              <a href="#">Gallery</a>
+              <a href="#">Help</a>
+              <a href="#">Contact</a>
+            </div>
+            <p class="mb-4 mb-lg-0 text-center text-lg-start">
+              © Copyright 2019 Mobirise - All Rights Reserved
+            </p>
+          </div>
+          <div
+            class="social-links col-sm-12 col-lg-6 d-flex gap-3 justify-content-center justify-content-lg-end align-items-center"
+          >
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer  -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
